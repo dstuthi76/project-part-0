@@ -1,0 +1,17 @@
+h1 {
+  color: red;
+  text-align: center;
+text-shadow: 2px 3px 1px pink;
+}
+h2{
+color:brown
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+body {
+  background-color: lightgreen;
+}

@@ -1,0 +1,20 @@
+html {
+  background-color:lightgreen;
+}
+li {
+  font-size: 14px;
+  line-height: 3;
+  letter-spacing: 2px;
+  font-family:cursive
+}
+body {
+  margin: 0 auto;
+  width: 900px;
+  border: 5px solid black;
+  padding: 0 10px 10px 10px;
+  background-color: lightpink;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+body{  
+  font-family: cursive, Arial, sans-serif;  
+  background-color:   #e75874;  
+}  
+.container {  
+    padding: 40px;  
+  background-color: #be1558;  
+}  
+  
+input[type=text], input[type=password], input[type=email], input[type=radio], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 10px 0;  
+  display: inline-block;  
+  border: none;  
+  background:#fbcbc9;  
+} 
+select{
+width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 10px 0;  
+  display: inline-block;  
+  border: none;  
+  background:#fbcbc9;  
+}
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #fbcbc9;  
+  margin-bottom: 25px; 
+}  
+.registerbtn {  
+  background-color: #322514 ;  
+  color:#1868ae ;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;
+  font-family:cursive;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}
+h1{
+font-family:Courier New;
+color: #1868ae;
+}
+h2{
+color:lightpink;
+}
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Registration Form for Students</h1> </center>  
+<h2 align=right><b><i>Created by Danduprolu Stuthi</i></b><h2>
+  <hr>  
+  <label> Name: </label>   
+<input type="text" name="Name" placeholder= "Enter your Name"required />   
+<label> Father Name:</label>   
+<input type="text" name="Fathername" placeholder="Enter your Father Name"required />   
+<label>Guider Name: </label>    
+<input type="text" name="GuiderName" placeholder="Enter your Guider Name"required />   
+<div>  
+<label>   
+Engineering Streams :  
+</label>   
+  
+<select>  
+<option value="Stream">Stream</option>  
+<option value="CSE">CSE</option>  
+<option value="ECE">ECE</option>  
+<option value="EEE">EEE</option>  
+<option value="MEC">MEC</option>  
+<option value="ECM">ECM</option>  
+<option value="CE">CE</option>  
+<option value="EE">EE</option>  
+<option value="PE">PE</option>  
+</select>  
+</div>  
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+Current Address :  
+<textarea cols="100" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+ <label for="email"><b>Email:</b></label><br>  
+ <input type="email" placeholder="Enter The Email" name="email" required>  
+<br>
+  
+    <label for="psw"><b>Password:</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Verify Your Password</b></label>  
+    <input type="password" placeholder="Verify Your Password" name="psw-repeat" required>  
+    <button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html> 
